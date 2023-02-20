@@ -28,7 +28,7 @@ const ScoreCard = ({ scoreInformation }: ScoreCardProps) => {
       className={`bg-${color}/10 w-full h-10 rounded-2xl flex justify-between items-center relative px-4 py-6 mb-4`}
     >
       <div className="flex">
-        <img src={icon} />
+        <img src={`icons/${icon}`} />
         <span className={`text-${color} ml-3 font-bold`}>{category}</span>
       </div>
       <div className="">
