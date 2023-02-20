@@ -18,9 +18,6 @@ function Summary() {
           You scored higher than 65% of the people who have taken these tests.
         </p>
       </section>
-      <section className="">
-        <h2 className="text-md font-medium"></h2>
-      </section>
       <section className="p-5 w-full xl:w-3/5">
         <h2 className="text-xl mb-6 font-bold">Summary</h2>
         {scoreData.map((scoreInfo: ScoreInformation) => {
