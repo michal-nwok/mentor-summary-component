@@ -6,6 +6,10 @@
 
 @media screen and (min-width: 1280px) {
   :root {
-    margin: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
   }
 }
